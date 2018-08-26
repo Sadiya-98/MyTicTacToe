@@ -36,8 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 myActivePlayer = 0;
             }
         } else{
-            Log.i("msg", "this place is filled already");
-            //Replace this with a Toast msg
+             Toast.makeText(getApplicationContext(), "place is already filled.", Toast.LENGTH_SHORT).show();
         }
 
 
